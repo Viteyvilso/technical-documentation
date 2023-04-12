@@ -32,6 +32,7 @@ a{
     top: 0px;
     left: 0px;
     min-width: 290px;
+
 }
 
 #navbar ul{
@@ -44,6 +45,7 @@ a{
     border-bottom: #2b2e2e solid 2px;
     list-style: none;
     margin-left: 0;
+    margin-top: 10px;
 }
 
 #navbar a{
@@ -112,6 +114,7 @@ code{
 }
 
 #nav_bar{
+    position: relative;
     display: block;
     font-weight: 200;
     font-size: 1.8em;
@@ -126,17 +129,20 @@ code{
         margin-top: 380px;
         margin-left: 0;
     }
+
     #navbar{
-    position: absolute;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-height: 275px;
-    border: none;
-    z-index: 1;
-    border-bottom: 2px solid;
+        position: absolute;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        text-align: center;
     }
 
+    #navbar ul{
+        margin-left: 10%;
+    }
 }
+    
+
     
